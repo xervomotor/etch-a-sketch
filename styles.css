@@ -1,0 +1,66 @@
+
+* {
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+.grid {
+    display: grid;
+    width: 500px;
+    height: 500px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.grid-element {
+    user-select: none;
+  }
+
+.conversation-panel {
+    width: 400px;
+    height: 600px;
+    padding: 10px;
+    margin: 0 20px;
+    text-align: justify;
+    overflow: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; 
+  }
+
+.button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    width: 80px;
+    height: 32px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+  
+ .button:hover {
+    background-color: #333333;
+}
+  
+.button:disabled {
+    background-color: #888888;
+    cursor: not-allowed;
+}
+
+input {
+    width: 400px;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: left;
+}
