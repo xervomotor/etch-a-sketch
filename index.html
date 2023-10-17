@@ -15,10 +15,16 @@
           <div class="grid">
             <!-- n by n grid of square divs -->
           </div>
-          <button class="button">pen</button>
-          <button class="button">eraser</button>
-          <button class="button">clear</button>
-          <button class="button">done</button>
+
+          <div class="btn-group">
+            <div>
+              <button class="button" id="pen">pen</button>
+              <button class="button" id="eraser">eraser</button>
+              <button class="button" id="clear">clear</button>
+            </div>
+
+            <button class="button send-btn">^</button>
+          </div>
         </div>
 
         <div class="conversation-panel">
@@ -37,7 +43,7 @@
 
       <div class="message-container">
         <input type="text" placeholder="message.." />
-        <button class="button">send</button>
+        <button class="button send-btn">^</button>
       </div>
     </div>
 

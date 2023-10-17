@@ -64,3 +64,14 @@ input {
     padding: 10px;
     text-align: left;
 }
+
+.send-btn {
+    width: 40px;
+}
+
+.btn-group {
+    padding: 0 0 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
